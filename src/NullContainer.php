@@ -9,7 +9,7 @@ use Psr\Container\NotFoundExceptionInterface;
 
 class NullContainer implements ContainerInterface
 {
-    public function get(string $id): bool
+    public function get(string $id)
     {
         $message = sprintf('Null Container Exception: no entry was found for %s', $id);
         throw new class($message) extends Exception implements NotFoundExceptionInterface {
