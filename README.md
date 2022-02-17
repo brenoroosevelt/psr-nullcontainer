@@ -19,7 +19,7 @@ $ composer require brenoroosevelt/psr-nullcontainer
 
 ## Usage
 ```php
-$container = new \BrenoRoosevelt\NullContainer();
+$container = new \BrenoRoosevelt\Psr11\NullContainer();
 ```
 
 ## License
